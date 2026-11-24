@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bionic Systems — Autonomous Enterprise Technical Support &amp; Customer Service</title>
+  <meta name="description" content="Bionic Systems is a unified autonomous AI service platform. Autonomous AI and conversational voice agents diagnose technical issues, resolve customer requests, execute approved actions across enterprise systems, and verify recovery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Sticky Architectural Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand-lockup" aria-label="Bionic Systems Home">
+        <svg class="brand-mark" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="#10131A" stroke="rgba(255,255,255,0.22)" stroke-width="1.2" />
+          <rect x="10.5" y="10" width="2.4" height="16" fill="#C91C22" />
+          <path d="M15 10H22L26.5 14.5L22 17.8L27.5 21.5L22 26H15V22.4H20.6L22.4 20.8L20.4 19.2H15V16.2H20.4L21.9 14.6L20.4 13.4H15V10Z" fill="#F4F6FA" />
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">BIONIC SYSTEMS</span>
+          <span class="brand-sub">AUTONOMOUS SERVICE PLATFORM</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Primary Navigation">
+        <a href="#film">The Film</a>
+        <a href="#platform">Platform</a>
+        <a href="#walkthrough">Live Scenarios</a>
+        <a href="#outcomes">Business Outcomes</a>
+        <a href="#governance">Governance</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn--primary nav-cta" id="nav-briefing-btn" data-open-modal>
+          Request Briefing
+        </button>
+        <button type="button" class="menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ====================================================================
+         SECTION 1: HERO — Product Clarity Immediately Above the Fold
+         ==================================================================== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-backdrop" aria-hidden="true">
+        <img src="assets/hero-poster.jpg" alt="" />
+        <div class="hero-scrim"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">Autonomous Enterprise Support &amp; Voice Service Platform</span>
+          <h1 id="hero-heading">Enterprise Support.<br />Autonomous by Design.</h1>
+          <p class="hero-lead">
+            Bionic Systems unifies autonomous technical support and conversational customer service on one intelligent platform—diagnosing issues, executing approved actions across your enterprise systems, and verifying recovery before returning operations to full speed.
+          </p>
+
+          <div class="hero-cta-row">
+            <button type="button" class="btn btn--primary" id="hero-watch-film-btn">
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><polygon points="3,2 14,8 3,14" /></svg>
+              Watch the 42-Second Film
+            </button>
+            <a href="#platform" class="btn btn--secondary" id="hero-explore-platform-btn">
+              Explore Platform Architecture
+            </a>
+          </div>
+
+          <p class="hero-metaphor-note">
+            Below, we use high-precision motorsport to illustrate the operational difference between conventional human-intensive support desks and Bionic Systems autonomous AI agents.
+          </p>
+        </div>
+      </div>
+
+      <!-- Immediate Product Clarity Bar: Zero Category Ambiguity -->
+      <div class="container">
+        <div class="hero-clarity-strip" role="list" aria-label="Core Platform Capabilities">
+          <div class="clarity-item" role="listitem">
+            <span class="clarity-label clarity-label--primary">01 · Autonomous Technical Support</span>
+            <p>AI agents diagnose IT incidents, execute authorized remediations across identity, endpoint, and enterprise apps, and verify technical recovery.</p>
+          </div>
+          <div class="clarity-item" role="listitem">
+            <span class="clarity-label clarity-label--primary">02 · Conversational Voice Service</span>
+            <p>Intelligent voice agents resolve routine customer inquiries, process refunds and returns, and complete approved billing and account actions end-to-end.</p>
+          </div>
+          <div class="clarity-item" role="listitem">
+            <span class="clarity-label clarity-label--primary">03 · Policy-Governed Execution</span>
+            <p>Every autonomous action runs within approved enterprise permissions, logs a full audit trail, and escalates seamlessly to human specialists when needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: 42-SECOND CINEMATIC MOTORSPORT COMPARISON FILM
+         ==================================================================== -->
+    <section class="cinema-section" id="film" aria-labelledby="film-heading">
+      <div class="container">
+        <div class="cinema-header-row">
+          <div class="section-header">
+            <span class="eyebrow">One Disruption · Two Operating Models</span>
+            <h2 id="film-heading">Experience the Operational Difference.</h2>
+            <p>
+              In enterprise operations, an unexpected technical failure or service bottleneck halts momentum. Watch how a skilled traditional support model responds above—compared side-by-side with Bionic Systems autonomous AI agents below.
+            </p>
+          </div>
+          <div class="cinema-meta-tag">42s Blender 3D Campaign Film · Optional Sound</div>
+        </div>
+
+        <div class="cinema-frame" id="cinema-player-frame">
+          <div class="video-viewport" id="video-viewport">
+            <video
+              id="bionic-film-video"
+              poster="assets/hero-poster.jpg"
+              playsinline
+              webkit-playsinline
+              muted
+              preload="auto"
+              aria-label="Bionic Systems 42-second cinematic comparison film comparing traditional human-intensive support above with autonomous AI service tunnel below"
+            >
+              <source src="assets/bionic-film.mp4" type='video/mp4; codecs="avc1.4D401F, mp4a.40.2"' />
+              <source src="assets/bionic-film.webm" type='video/webm; codecs="vp9, opus"' />
+              <source src="assets/bionic-film.webm" type="video/webm" />
+              <source src="assets/bionic-film.mp4" type="video/mp4" />
+            </video>
+
+            <button
+              type="button"
+              class="sound-prompt-btn"
+              id="floating-unmute-btn"
+              aria-label="Enable film audio"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                <line x1="23" y1="9" x2="17" y2="15" />
+                <line x1="17" y1="9" x2="23" y2="15" />
+              </svg>
+              <span>Sound Off · Enable Audio</span>
+            </button>
+
+            <div class="video-status-pill" id="video-status-pill" aria-live="polite"></div>
+
+            <div class="video-play-overlay" id="video-play-overlay">
+              <div class="play-disc" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="7,4 20,12 7,20" /></svg>
+              </div>
+              <span class="play-overlay-label">Play 42-Second Film</span>
+            </div>
+          </div>
+
+          <!-- Custom Cinema Control Dock -->
+          <div class="cinema-controls">
+            <div class="timeline-track" id="timeline-track" role="slider" aria-label="Film timeline scrubber" aria-valuemin="0" aria-valuemax="42" aria-valuenow="0" tabindex="0">
+              <div class="timeline-rail">
+                <div class="timeline-fill" id="timeline-fill"></div>
+                <span class="timeline-marker" style="left: 27.4%;" title="Act II: Horizontal Split Comparison (11.5s)"></span>
+                <span class="timeline-marker" style="left: 75.0%;" title="Act III: Verified Recovery Payoff (31.5s)"></span>
+              </div>
+            </div>
+
+            <div class="controls-bar">
+              <div class="controls-left">
+                <button type="button" class="ctrl-btn" id="btn-play-pause" aria-label="Play or pause film">Play</button>
+                <button type="button" class="ctrl-btn" id="btn-replay" aria-label="Replay film from beginning">Replay</button>
+                <button type="button" class="ctrl-btn" id="btn-mute-toggle" aria-label="Toggle sound">Sound: Off</button>
+                <button type="button" class="ctrl-btn is-active" id="btn-captions-toggle" aria-label="Toggle narrative captions">Captions: On</button>
+                <span class="time-readout" id="time-readout">00:00 / 00:42</span>
+              </div>
+
+              <div class="controls-right chapter-pills" role="group" aria-label="Jump to film act">
+                <button type="button" class="chapter-btn is-current" data-seek="0" id="ch-act1">Act I · Incident</button>
+                <button type="button" class="chapter-btn" data-seek="11.5" id="ch-act2">Act II · Split Comparison</button>
+                <button type="button" class="chapter-btn" data-seek="31.5" id="ch-act3">Act III · Verified Payoff</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Synchronized Silent-Viewing Narrative Bar -->
+          <div class="live-caption-bar" id="live-caption-bar" aria-live="polite">
+            <div class="live-caption-left">
+              <span class="caption-act-tag" id="caption-act-tag">ACT I · OPERATIONS</span>
+              <span class="caption-text" id="caption-text">Continuous enterprise operations running at peak performance before an unexpected disruption strikes.</span>
+            </div>
+            <span class="caption-disclaimer">Cinematic timings are illustrative of operating-model differences.</span>
+          </div>
+        </div>
+
+        <!-- Explicit Metaphor-to-Enterprise Translation Storyboard -->
+        <div class="metaphor-bridge">
+          <div class="bridge-intro">
+            <h3>From Motorsport Metaphor to Enterprise Reality</h3>
+            <p>Select any frame to jump directly to that moment in the film.</p>
+          </div>
+
+          <div class="bridge-grid">
+            <button type="button" class="bridge-card" data-seek="6.8" id="bridge-card-1">
+              <div class="bridge-thumb">
+                <img src="assets/still-incident.jpg" alt="Front-left mechanical failure on circuit turn" loading="lazy" />
+                <span class="bridge-time">0:07</span>
+              </div>
+              <div class="bridge-body">
+                <span class="bridge-metaphor">Metaphor · Mechanical Failure</span>
+                <span class="bridge-meaning">Critical IT Incident or Customer Disruption</span>
+                <span class="bridge-desc">An unexpected access failure, endpoint crash, or urgent billing error interrupts active operations.</span>
+              </div>
+            </button>
+
+            <button type="button" class="bridge-card" data-seek="14.5" id="bridge-card-2">
+              <div class="bridge-thumb">
+                <img src="assets/still-split-diagnose.jpg" alt="Horizontal comparison showing traditional pit crew above and Bionic autonomous optical diagnosis below" loading="lazy" />
+                <span class="bridge-time">0:14</span>
+              </div>
+              <div class="bridge-body">
+                <span class="bridge-metaphor">Upper vs. Lower · Intake &amp; Diagnosis</span>
+                <span class="bridge-meaning">Manual Triage vs. Intelligent Root-Cause Isolation</span>
+                <span class="bridge-desc">Traditional desks coordinate multiple specialists; Bionic AI agents isolate root cause or customer intent instantaneously.</span>
+              </div>
+            </button>
+
+            <button type="button" class="bridge-card" data-seek="19.0" id="bridge-card-3">
+              <div class="bridge-thumb">
+                <img src="assets/still-split-remediate.jpg" alt="Horizontal comparison showing manual pit wheel change above and autonomous tunnel remediation below" loading="lazy" />
+                <span class="bridge-time">0:19</span>
+              </div>
+              <div class="bridge-body">
+                <span class="bridge-metaphor">Autonomous Tunnel · Remediation &amp; Governance</span>
+                <span class="bridge-meaning">Authorized Action Across Business Systems</span>
+                <span class="bridge-desc">Approved technical fixes, returns, or refunds execute directly under active human governance oversight.</span>
+              </div>
+            </button>
+
+            <button type="button" class="bridge-card" data-seek="33.5" id="bridge-card-4">
+              <div class="bridge-thumb">
+                <img src="assets/still-payoff.jpg" alt="BS-01 GT returning smoothly through the same circuit turn after verified recovery" loading="lazy" />
+                <span class="bridge-time">0:34</span>
+              </div>
+              <div class="bridge-body">
+                <span class="bridge-metaphor">Same Turn · Verified Return to Race</span>
+                <span class="bridge-meaning">Validated Recovery &amp; Business Continuity</span>
+                <span class="bridge-desc">Outcomes are verified before closing—restoring employee productivity and customer confidence faster.</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: ONE UNIFIED AUTONOMOUS PLATFORM (65% Technical / 35% Voice CS)
+         ==================================================================== -->
+    <section class="section section--surface" id="platform" aria-labelledby="platform-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">The Product Behind the Story</span>
+          <h2 id="platform-heading">One Intelligent Platform for Autonomous Technical Support and Customer Service.</h2>
+          <p>
+            The racing film illustrates a single operational truth: speed and reliability come from intelligent autonomy, not manual coordination at scale. Built primarily for complex technical support—and extending seamlessly to conversational customer service—Bionic Systems resolves complete requests end-to-end across your existing business systems.
+          </p>
+        </div>
+
+        <!-- Asymmetric 1.65 : 1 layout naturally reflects ~65% Technical Focus / ~35% Voice Customer Service -->
+        <div class="platform-asymmetric">
+          <!-- Primary Focus: Autonomous Technical Support & IT Service Desk -->
+          <article class="pillar-panel pillar-panel--primary" aria-labelledby="pillar-tech-title">
+            <div>
+              <div class="pillar-kicker">
+                <span class="pillar-kicker-label">Primary Core · Technical Support &amp; IT Operations</span>
+                <span class="pillar-kicker-scope">Autonomous Service Desk</span>
+              </div>
+              <h3 id="pillar-tech-title">Autonomous IT Troubleshooting, Remediation, and Verified Recovery</h3>
+              <p class="pillar-lead">
+                Go beyond chatbots that merely summarize knowledge articles or draft replies for technicians. Bionic Systems connects directly into your IT stack to investigate root cause, apply policy-approved remediations, and prove the system is healthy before closing the incident.
+              </p>
+
+              <ul class="capability-list capability-list--two-col">
+                <li class="capability-item">
+                  <h4>Intelligent Technical Diagnosis</h4>
+                  <p>Inspects identity logs, endpoint telemetry, application state, and prior incident history to pinpoint root cause instead of bouncing tickets across tiers.</p>
+                </li>
+                <li class="capability-item">
+                  <h4>Authorized System Remediation</h4>
+                  <p>Executes approved fixes directly—resetting locked credentials, repairing VPN or certificate faults, resolving SaaS entitlements, and restarting failed services.</p>
+                </li>
+                <li class="capability-item">
+                  <h4>Verified Technical Recovery</h4>
+                  <p>Validates connectivity, permission propagation, and live health telemetry after every change so recurring tickets do not reopen hours later.</p>
+                </li>
+                <li class="capability-item">
+                  <h4>Structured Specialist Escalation</h4>
+                  <p>When an incident falls outside autonomous policy or requires architectural intervention, escalates to human engineers with complete diagnostic proof.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pillar-systems">
+              Native IT Ecosystem · ServiceNow · Jira Service Management · Okta · Microsoft Entra · Intune · Jamf · CrowdStrike · AWS / Azure
+            </div>
+          </article>
+
+          <!-- Meaningful Extension: Conversational Customer Service Voice Agents -->
+          <article class="pillar-panel" aria-labelledby="pillar-cs-title">
+            <div>
+              <div class="pillar-kicker">
+                <span class="pillar-kicker-label">Unified Extension · Customer Service</span>
+                <span class="pillar-kicker-scope">Conversational Voice AI</span>
+              </div>
+              <h3 id="pillar-cs-title">Autonomous Voice Agents That Resolve Customer Requests</h3>
+              <p class="pillar-lead">
+                Organizations need the same verified autonomy for non-technical customer interactions. Conversational voice agents understand natural speech, authenticate callers, and complete routine service requests end-to-end without queue hold times.
+              </p>
+
+              <ul class="capability-list">
+                <li class="capability-item">
+                  <h4>Natural Voice Inquiries &amp; Billing Resolution</h4>
+                  <p>Answers account, order, and invoice questions accurately by querying live CRM and billing records in real time during the call.</p>
+                </li>
+                <li class="capability-item">
+                  <h4>Autonomous Refunds, Returns &amp; Exchanges</h4>
+                  <p>Checks return eligibility against business policy, initiates RMA shipping labels, issues approved refunds, and confirms transaction completion.</p>
+                </li>
+                <li class="capability-item">
+                  <h4>Verified Cross-System Outcome &amp; Warm Handoff</h4>
+                  <p>Updates CRM, ERP, and fulfillment systems atomically—and transfers high-touch or exception calls to human agents with full transcript context.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pillar-systems">
+              Customer Systems · Salesforce · Zendesk · Stripe · NetSuite · Shopify · Workday · Enterprise Telephony / SIP
+            </div>
+          </article>
+        </div>
+
+        <!-- Unified 4-Stage Governed Architecture -->
+        <div class="execution-loop" role="list" aria-label="Four-Stage Autonomous Resolution Architecture">
+          <div class="loop-step" role="listitem">
+            <span class="loop-num">01 · DETECT &amp; UNDERSTAND</span>
+            <h4>Diagnose Intent or Fault</h4>
+            <p>Ingests technical telemetry, ticket payloads, or live customer voice conversation to establish verified context and root cause.</p>
+          </div>
+          <div class="loop-step" role="listitem">
+            <span class="loop-num">02 · AUTHORIZE</span>
+            <h4>Enforce Policy Guardrails</h4>
+            <p>Evaluates enterprise RBAC rules, refund limits, and change policies to determine whether action is pre-approved or requires human sign-off.</p>
+          </div>
+          <div class="loop-step" role="listitem">
+            <span class="loop-num">03 · EXECUTE</span>
+            <h4>Act Across Live Systems</h4>
+            <p>Runs deterministic API workflows across IAM, MDM, ITSM, billing, or ERP platforms—completing the resolution rather than merely suggesting it.</p>
+          </div>
+          <div class="loop-step" role="listitem">
+            <span class="loop-num">04 · VERIFY</span>
+            <h4>Validate Recovery &amp; Close</h4>
+            <p>Confirms technical health restoration or financial transaction settlement before notifying the user and logging an immutable audit record.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: INTERACTIVE AUTONOMOUS RESOLUTION WALKTHROUGH
+         (3 Technical Support + 2 Conversational Voice Customer Service)
+         ==================================================================== -->
+    <section class="section section--elevated" id="walkthrough" aria-labelledby="walkthrough-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Operational Proof in Production</span>
+          <h2 id="walkthrough-heading">Inspect How Autonomous Agents Resolve Real Enterprise Work.</h2>
+          <p>
+            Select a technical IT incident or conversational voice customer request below to inspect how Bionic Systems diagnoses the problem, enforces policy, executes approved actions, and verifies the outcome.
+          </p>
+        </div>
+
+        <div class="walkthrough-shell">
+          <div class="scenario-tabs" role="tablist" aria-label="Autonomous Resolution Scenarios">
+            <button type="button" class="scenario-tab is-active" role="tab" aria-selected="true" data-scenario="vpn" id="tab-vpn">
+              <span class="tab-domain tab-domain--tech">Technical IT</span>
+              VPN &amp; Identity Lockout
+            </button>
+            <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="erp" id="tab-erp">
+              <span class="tab-domain tab-domain--tech">Technical IT</span>
+              ERP Access Entitlement Fault
+            </button>
+            <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="endpoint" id="tab-endpoint">
+              <span class="tab-domain tab-domain--tech">Technical IT</span>
+              Endpoint Certificate Expiry
+            </button>
+            <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="refund" id="tab-refund">
+              <span class="tab-domain tab-domain--voice">Voice Service</span>
+              Damaged Order Return &amp; Refund
+            </button>
+            <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="billing" id="tab-billing">
+              <span class="tab-domain tab-domain--voice">Voice Service</span>
+              Invoice Inquiry &amp; Billing Credit
+            </button>
+          </div>
+
+          <div class="scenario-stage" id="scenario-stage" role="tabpanel">
+            <div class="scenario-context">
+              <div>
+                <div class="scenario-channel" id="sc-channel">CHANNEL · TECHNICAL SERVICE DESK &amp; VOICE ESCALATION</div>
+                <h3 id="sc-title">VPN &amp; MFA Lockout During Executive Travel</h3>
+                <blockquote class="scenario-quote" id="sc-quote">
+                  “My corporate VPN keeps dropping with an authentication error at the airport and I have a board review in fifteen minutes.”
+                </blockquote>
+              </div>
+
+              <div class="scenario-compare-box">
+                <div class="compare-col">
+                  <div class="compare-col-label">Conventional Support Model</div>
+                  <p id="sc-traditional">Ticket queued for Level-1 triage, escalated to IAM specialist for token audit, manual MFA reset, and delayed callback confirmation.</p>
+                </div>
+                <div class="compare-col">
+                  <div class="compare-col-label compare-col-label--bionic">Bionic Systems Autonomous Agent</div>
+                  <p id="sc-bionic">Correlates Okta geo-anomaly + expired VPN cert automatically, executes policy-approved remediation, and verifies active tunnel handshake.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="scenario-trace">
+              <div class="trace-header">
+                <span class="trace-title" id="sc-trace-id">EXECUTION TRACE · AUTONOMOUS AGENT #BS-TECH-04</span>
+                <span class="trace-status" id="sc-trace-status">OUTCOME VERIFIED</span>
+              </div>
+
+              <div class="trace-steps" id="sc-trace-steps">
+                <!-- Dynamically populated and animated by app.js -->
+              </div>
+
+              <div class="trace-meta-line">
+                <span id="sc-policy">Policy: IAM-AUTO-204 · Pre-Authorized</span>
+                <span id="sc-audit">Audit Trail: Immutable · Escalation Fallback Ready</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: FOUR ENTERPRISE COMMERCIAL OUTCOMES
+         ==================================================================== -->
+    <section class="section section--surface" id="outcomes" aria-labelledby="outcomes-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Commercial Impact for Enterprise Leaders</span>
+          <h2 id="outcomes-heading">Built to Transform Support Economics Without Compromising Quality.</h2>
+          <p>
+            For CIOs, IT operations leaders, and heads of customer experience, Bionic Systems replaces fragmented manual queues with one governed autonomous operating model.
+          </p>
+        </div>
+
+        <div class="outcomes-grid">
+          <article class="outcome-card">
+            <span class="outcome-index">01 · SPEED &amp; VELOCITY</span>
+            <h3>Compress Disruption Into Verified Continuity</h3>
+            <p>
+              Eliminate wait queues, cross-team handoffs, and multi-hop escalations. Autonomous AI agents begin diagnosing technical faults and answering customer voice calls the moment an issue arises—accelerating verified return to service.
+            </p>
+            <div class="outcome-tie">Impact: Faster incident resolution and immediate conversational response across peak demand.</div>
+          </article>
+
+          <article class="outcome-card">
+            <span class="outcome-index">02 · OPERATIONAL EFFICIENCY</span>
+            <h3>Remove Repetitive Toil From Skilled Human Teams</h3>
+            <p>
+              Conventional support scales linearly with headcount. By autonomously resolving routine IT troubleshooting, access requests, returns, and billing inquiries, Bionic Systems frees human specialists for complex engineering and high-empathy escalations.
+            </p>
+            <div class="outcome-tie">Impact: Lower operational friction and scalable capacity without proportional staffing overhead.</div>
+          </article>
+
+          <article class="outcome-card">
+            <span class="outcome-index">03 · QUALITY &amp; RELIABILITY</span>
+            <h3>Consistent Policy Adherence and Verified Outcomes</h3>
+            <p>
+              Human-intensive desks vary by shift, workload, and tribal knowledge. Bionic Systems executes approved technical runbooks and customer service policies deterministically—and verifies technical recovery or transaction completion every single time.
+            </p>
+            <div class="outcome-tie">Impact: Fewer reopened tickets, eliminated partial fixes, and consistent enterprise service standards.</div>
+          </article>
+
+          <article class="outcome-card">
+            <span class="outcome-index">04 · INTELLIGENT AUTONOMY</span>
+            <h3>Action-Capable Agents, Not Passive Assistant Chatbots</h3>
+            <p>
+              Most AI tools stop at drafting advice or surfacing links for a human technician to act upon. Bionic Systems executes authorized actions directly across integrated IT, CRM, ERP, and billing platforms—delivering true end-to-end resolution.
+            </p>
+            <div class="outcome-tie">Impact: Real closed-loop resolution across both technical support and voice customer service.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 6: ENTERPRISE GOVERNANCE, SECURITY & HUMAN OVERSIGHT
+         ==================================================================== -->
+    <section class="section section--elevated" id="governance" aria-labelledby="governance-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow--emerald">Operational Control &amp; Accountability</span>
+          <h2 id="governance-heading">Autonomy Engineered With Enterprise Governance Built In.</h2>
+          <p>
+            Just as the Bionic Systems service tunnel pairs autonomous precision with a dedicated oversight bay, the platform ensures your leadership retains absolute visibility, policy control, and human escalation authority.
+          </p>
+        </div>
+
+        <div class="governance-layout">
+          <figure class="governance-visual">
+            <img src="assets/still-split-verified.jpg" alt="Bionic Systems autonomous service tunnel completing verified recovery with human governance oversight bay active in background" loading="lazy" />
+            <figcaption class="governance-caption">
+              <strong>Human Oversight Without Manual Toil:</strong> Specialists define policy boundaries, inspect real-time verification telemetry, and handle high-judgment escalations—never repetitive triage.
+            </figcaption>
+          </figure>
+
+          <div class="governance-pillars">
+            <div class="gov-row">
+              <h3>Scoped Authorization &amp; Policy Boundaries</h3>
+              <p>Define granular permissions specifying exactly which technical remediations, refund thresholds, and account modifications agents may execute autonomously—and which require explicit human approval.</p>
+            </div>
+            <div class="gov-row">
+              <h3>Seamless Context-Rich Human Escalation</h3>
+              <p>When an edge case, sensitive customer interaction, or out-of-policy request occurs, Bionic Systems hands off immediately to the right specialist with complete diagnostic findings, voice transcripts, and attempted checks.</p>
+            </div>
+            <div class="gov-row">
+              <h3>Cryptographically Auditable Execution Logs</h3>
+              <p>Every diagnostic query, spoken voice exchange, API write operation, and post-action verification probe is logged immutably to satisfy enterprise security, compliance, and change-management reviews.</p>
+            </div>
+            <div class="gov-row">
+              <h3>Zero Rip-and-Replace Deployment</h3>
+              <p>Integrates directly into your current ITSM, IAM, MDM, CRM, billing, and enterprise telephony infrastructure—delivering immediate value across technical and customer-facing channels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 7: CLOSING EXECUTIVE CTA
+         ==================================================================== -->
+    <section class="closing-cta" aria-labelledby="closing-heading">
+      <div class="container closing-inner">
+        <span class="eyebrow">Bionic Systems · Unified Autonomous Service Platform</span>
+        <h2 id="closing-heading">Faster Resolution. Less Interruption. Verified Recovery.</h2>
+        <p>
+          See how Bionic Systems deploys autonomous AI agents across your technical service desk and conversational voice customer channels—governed by your policies and verified across your production systems.
+        </p>
+        <div class="closing-actions">
+          <button type="button" class="btn btn--primary" id="closing-briefing-btn" data-open-modal>
+            Schedule an Architecture Briefing
+          </button>
+          <button type="button" class="btn btn--secondary" id="closing-replay-btn">
+            Replay the 42-Second Film
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong style="color: var(--ink-primary); letter-spacing: 0.12em;">BIONIC SYSTEMS</strong>
+        <span> — Autonomous Technical Support &amp; Conversational Voice Service Platform.</span>
+      </div>
+      <div class="footer-links">
+        <a href="#film">Campaign Film</a>
+        <a href="#platform">Platform</a>
+        <a href="#walkthrough">Live Scenarios</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="#governance">Governance</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Executive Architecture Briefing Modal -->
+  <div class="modal-backdrop" id="briefing-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-panel">
+      <button type="button" class="modal-close" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <span class="eyebrow">Enterprise Briefing</span>
+      <h3 id="modal-title">Request a Bionic Systems Architecture Briefing</h3>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+        Walk through live autonomous IT remediation workflows and conversational voice customer service agents tailored to your systems.
+      </p>
+
+      <form class="modal-form" id="briefing-form">
+        <div class="field-group">
+          <label for="bf-name">Full Name</label>
+          <input type="text" id="bf-name" name="name" placeholder="Jordan Vance" required />
+        </div>
+        <div class="field-group">
+          <label for="bf-email">Work Email</label>
+          <input type="email" id="bf-email" name="email" placeholder="jordan.vance@enterprise.com" required />
+        </div>
+        <div class="field-group">
+          <label for="bf-scope">Primary Evaluation Focus</label>
+          <select id="bf-scope" name="scope">
+            <option value="unified">Unified Platform — Technical IT Support + Voice Customer Service</option>
+            <option value="tech">Autonomous Technical Support &amp; IT Service Desk</option>
+            <option value="voice">Conversational Voice Customer Service Agents</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary" id="bf-submit-btn">Request Technical Walkthrough</button>
+      </form>
+
+      <div class="modal-success" id="briefing-success" aria-live="polite">
+        <span class="eyebrow eyebrow--emerald">Request Recorded</span>
+        <h4>Briefing Request Confirmed</h4>
+        <p style="margin-top: 0.55rem; font-size: 0.92rem;">
+          Thank you. Our enterprise solutions engineering team will prepare a tailored architecture walkthrough covering your selected autonomous technical and voice service workflows.
+        </p>
+        <button type="button" class="btn btn--secondary" id="modal-done-btn" style="margin-top: 1.25rem;">Return to Experience</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
